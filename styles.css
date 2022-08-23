@@ -1,0 +1,25 @@
+* {
+  border: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: darksalmon;
+  max-width: 80%;
+  margin: auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.about,
+.project {
+  border-right: solid 2px black;
+  padding-right: 10%;
+}
