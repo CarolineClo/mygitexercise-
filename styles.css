@@ -10,8 +10,8 @@ nav {
 }
 nav ul {
   list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 nav a {
@@ -21,5 +21,8 @@ nav a {
 .about,
 .project {
   border-right: solid 2px black;
-  padding-right: 10%;
+}
+
+li {
+  padding: 0 calc(50% - 1rem);
 }
